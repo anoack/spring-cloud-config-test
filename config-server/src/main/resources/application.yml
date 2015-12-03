@@ -6,3 +6,5 @@ spring:
         git:
           uri: https://github.com/anoack/spring-cloud-config-test
           search-paths: ConfigData
+server:
+  port: 8001
