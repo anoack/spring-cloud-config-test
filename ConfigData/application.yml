@@ -3,3 +3,27 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8010/eureka/
+---
+spring:
+  profiles: subject
+words: Ich,Du,Er,Sie,Es
+
+---
+spring:
+  profiles: verb
+words: rannte,wusste,sah,kaufte,aß,kostete
+
+---
+spring:
+  profiles: article
+words: ein
+
+---
+spring:
+  profiles: adjective
+words: neugierig,toll,ungewöhnlich,seltsam
+
+---
+spring:
+  profiles: noun
+words: Eichhörnchen,Baum,Güterzug,Buch  
