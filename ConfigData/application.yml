@@ -5,6 +5,11 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
+  profiles: default
+words: Blah,Blub
+
+---
+spring:
   profiles: subject
 words: Ich,Du,Er,Sie,Es
 
